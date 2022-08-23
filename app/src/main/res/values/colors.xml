@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#04ACF8</color>
+    <color name="colorPrimaryDark">#04ACF8</color>
+    <color name="colorAccent">#04ACF8</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#75D605</color>
+    <color name="dark">#272727</color>
+    <color name="yellow">#EFB300</color>
+    <color name="view">#7C7C7C</color>
+
+    <!-- gradient -->
+    <color name="startColor">#006797</color>
+    <color name="endColor">#489855</color>
+    <color name="centerColor">#006797</color>
+    <color name="userRow">#403fc68b</color>
+</resources>
