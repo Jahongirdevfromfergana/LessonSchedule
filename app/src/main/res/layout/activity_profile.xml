@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen.ProfileActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:background="@color/dark"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/btnMenu"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/menu"
+                        app:tint="@color/white" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:paddingLeft="24dp"
+                        android:text="@string/app_name"/>
+                    <ImageView
+                        android:id="@+id/btnPin"
+                        android:layout_width="24dp"
+                        android:visibility="invisible"
+                        android:layout_height="24dp"
+                        android:src="@drawable/img2"/>
+                </LinearLayout>
+            <FrameLayout
+                android:id="@+id/flContainer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+<!--            <com.google.android.youtube.player.YouTubePlayerView-->
+<!--                android:id="@+id/youtube_player"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="200dp"/>-->
+<!--            <com.google.android.material.button.MaterialButton-->
+<!--                android:id="@+id/btn_play"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_margin="20dp"-->
+<!--                app:backgroundTint="@color/dark"-->
+<!--                app:cornerRadius="12sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Play"/>-->
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation"
+                android:layout_width="match_parent"
+                app:labelVisibilityMode="unlabeled"
+                android:foregroundTintMode="multiply"
+                android:layout_height="wrap_content"
+                app:menu="@menu/bottom_navigation_menu"/>
+
+
+        </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <FrameLayout-->
+<!--            android:id="@+id/flContainerOne"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="1" />-->
+
+<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--            android:id="@+id/bottomNavigationViewOne"-->
+<!--            android:layout_width="match_parent"-->
+<!--            app:itemIconTint="#04ACF8"-->
+<!--            app:itemRippleColor="@color/black"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:labelVisibilityMode="labeled"-->
+<!--            app:menu="@menu/bottom_navigation_menu_one" />-->
+
+<!--    </LinearLayout>-->
+</FrameLayout>

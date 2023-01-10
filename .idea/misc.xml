@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android studio/LessonSchedule/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android studio/LessonSchedule/app/src/main/res/layout/activity_more.xml" value="0.209375" />
+        <entry key="..\:/Android studio/LessonSchedule/app/src/main/res/layout/category_item_layout.xml" value="0.209375" />
+        <entry key="..\:/Android studio/LessonSchedule/app/src/main/res/layout/fragment_home_one.xml" value="0.20427305888483585" />
+        <entry key="..\:/Android studio/LessonSchedule/app/src/main/res/layout/popular_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android studio/LessonSchedule/app/src/main/res/layout/slide_item_container.xml" value="0.20416666666666666" />
+        <entry key="..\:/Andtoid st/LessonSchedule/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Andtoid st/LessonSchedule/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Andtoid st/LessonSchedule/app/src/main/res/layout/fragment_home_one.xml" value="0.20416666666666666" />
+        <entry key="..\:/Andtoid st/LessonSchedule/app/src/main/res/layout/fragment_mesage_one.xml" value="0.1" />
+        <entry key="..\:/Andtoid st/LessonSchedule/app/src/main/res/layout/popular_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Andtoid st/LessonSchedule/app/src/main/res/layout/slide_item_container.xml" value="0.20416666666666666" />
+        <entry key="..\:/Andtoid st/LessonSchedule/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
+        <entry key="..\:/Andtoid st/LessonSchedule/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Andtoid st/LessonSchedule/app/src/main/res/menu/search_menu.xml" value="0.1" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/drawable/background_bg.xml" value="0.12" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/drawable/custom_background.xml" value="0.13" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/drawable/gradient_bottom.xml" value="0.118" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/drawable/recyclerview_bg.xml" value="0.13" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/drawable/shape.xml" value="0.1295" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/drawable/user_row_bg.xml" value="0.13" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_category_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_category_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_category_item2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_detail.xml" value="0.203125" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_feature_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_more.xml" value="0.2" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_popular_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_sap_category_item.xml" value="0.1" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_selected.xml" value="0.203125" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/category_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/content_main.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/content_selected.xml" value="0.1984375" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/custom_backgrount.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/featured_item_layout.xml" value="0.33" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_category.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_category_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_home_one.xml" value="0.1940928270042194" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_like_one.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_menu_one.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_mesage_one.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_notifi_one.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_second.xml" value="0.1" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_store.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/menu_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/more_item_layout.xml" value="0.22" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/popular_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/slide_item.xml" value="1.13125" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/slide_item_container.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/menu/bottom_navigation_menu_one.xml" value="0.1" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/menu/menu_item.xml" value="0.203125" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/menu/menu_main.xml" value="0.203125" />
+        <entry key="..\:/Users/7733/AndroidStudioProjects/LessonSchedule/app/src/main/res/menu/search_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Jahongir/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/activity_category_item.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Jahongir/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_home.xml" value="0.259375" />
+        <entry key="..\:/Users/Jahongir/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/fragment_home_one.xml" value="0.259375" />
+        <entry key="..\:/Users/Jahongir/AndroidStudioProjects/LessonSchedule/app/src/main/res/layout/slide_item_container.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<resources>
+  <style name="Theme.LessonSchedule.NoActionBar" >
+  <item name="windowActionBar">false</item>
+  <item name="windowNoTitle">true</item>
+</style>
+  <style name="Theme.LessonSchedule.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+  <style name="Theme.LessonSchedule.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_bg"
+    android:orientation="vertical"
+    tools:context=".screen.MoreActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:divider="#ad5"
+        android:dividerHeight="2dp"
+        android:layout_below="@+id/searchView"/>
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:queryHint="Search Here"
+        android:iconifiedByDefault="false"
+        android:layout_alignParentTop="true"/>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/llToolbar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <androidx.appcompat.widget.Toolbar-->
+<!--                android:id="@+id/tbToolbar"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="?attr/actionBarSize">-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:text="Lorem ipsum"/>-->
+<!--            </androidx.appcompat.widget.Toolbar>-->
+
+<!--        </LinearLayout>-->
+<!--        <androidx.appcompat.widget.SearchView-->
+<!--            android:id="@+id/country_search"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textCursorDrawable="@null"-->
+<!--            app:iconifiedByDefault="false"-->
+<!--            app:queryBackground="@null" />-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/recyclerview_bg">-->
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/country_rv"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@color/colorPrimaryDark" />-->
+<!--        </LinearLayout>-->
+
+
+<!--        &lt;!&ndash;        <androidx.core.widget.NestedScrollView&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_height="wrap_content">&ndash;&gt;-->
+<!--        &lt;!&ndash;            <LinearLayout&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:orientation="vertical">&ndash;&gt;-->
+<!--        &lt;!&ndash;                <LinearLayout&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:orientation="horizontal">&ndash;&gt;-->
+<!--        &lt;!&ndash;                    <LinearLayout&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:layout_width="0dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:padding="18dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:layout_weight="1"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:orientation="horizontal">&ndash;&gt;-->
+<!--        &lt;!&ndash;                        <TextView&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:layout_width="0dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:layout_gravity="center"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:gravity="center"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:layout_weight="1"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:textStyle="normal"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:textSize="14sp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:textColor="@color/black"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:text="FILTER OPTIONS"/>&ndash;&gt;-->
+<!--        &lt;!&ndash;                    </LinearLayout>&ndash;&gt;-->
+<!--        &lt;!&ndash;                    <View&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:layout_width="1dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:background="@color/view"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:layout_height="match_parent"/>&ndash;&gt;-->
+<!--        &lt;!&ndash;                    <LinearLayout&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:layout_width="0dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:layout_weight="1"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:padding="18dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:gravity="center"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:orientation="horizontal">&ndash;&gt;-->
+
+
+<!--        &lt;!&ndash;                        <TextView&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:gravity="center"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:textStyle="normal"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:textSize="14sp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:textColor="@color/black"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:text="SORTING OPTIONS"/>&ndash;&gt;-->
+
+
+<!--        &lt;!&ndash;                        <ImageView&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:layout_marginLeft="12dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:layout_width="12dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:layout_height="12dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                            android:src="@drawable/bottomicon"/>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                    </LinearLayout>&ndash;&gt;-->
+<!--        &lt;!&ndash;                </LinearLayout>&ndash;&gt;-->
+<!--        &lt;!&ndash;                <View&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_height="1dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:background="@color/view"/>&ndash;&gt;-->
+<!--        &lt;!&ndash;                <LinearLayout&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:padding="16dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:gravity="center"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:orientation="horizontal">&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                    <ImageView&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:layout_width="18dp"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:tint="#A3A2A2"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:layout_height="18dp"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:src="@drawable/search"/>&ndash;&gt;&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                    <SearchView&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:id="@+id/search_view"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:background="@drawable/custom_background"&ndash;&gt;-->
+<!--        &lt;!&ndash;                        android:layout_height="wrap_content"/>&ndash;&gt;-->
+
+
+<!--        &lt;!&ndash;&lt;!&ndash;                    <EditText&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:layout_width="0dp"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:layout_weight="1"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:textSize="18sp"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:paddingLeft="12dp"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:maxLines="1"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:textColor="@color/black"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:background="@color/white"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                        android:hint="Search"/>&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;                </LinearLayout>&ndash;&gt;-->
+<!--        &lt;!&ndash;                <View&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_height="1dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:background="@color/view"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_marginBottom="12dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_marginLeft="16sp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_marginRight="16sp"/>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                <ListView&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:id="@+id/list_view"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_marginRight="16dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:paddingRight="16dp"/>&ndash;&gt;-->
+
+
+<!--        &lt;!&ndash;&lt;!&ndash;                <androidx.recyclerview.widget.RecyclerView&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                    android:id="@+id/recyclerViewMore"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                    android:background="#FAF8F8"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                    android:layout_height="0dp"&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;&lt;!&ndash;                    android:layout_weight="1"/>&ndash;&gt;&ndash;&gt;-->
+<!--        &lt;!&ndash;            </LinearLayout>&ndash;&gt;-->
+<!--        &lt;!&ndash;        </androidx.core.widget.NestedScrollView>&ndash;&gt;-->
+<!--    </LinearLayout>-->
+
+
+</RelativeLayout>
